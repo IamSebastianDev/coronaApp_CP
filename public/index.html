@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Sebastian Heinz">
+    <title>CinePark Schrobenhausen</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <div class="loader loader-fullScreen" state="visible">
+        <div class="loader-Container">
+            <span></span>
+        </div>
+    </div>
+    <header>
+        <div class="header-restriction">
+        <button class="button-header header-return" state="inactive">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-left"><polyline points="15 18 9 12 15 6"></polyline></svg></button>
+        <img src="./assets/logo_cinepark_200w.png" alt="">
+        <button class="button-header header-forward" state="inactive">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg>
+        </button>
+    </div>
+    </header>
+    <main>
+        <section id="tracker-start" state="hidden">
+            <h1>Liebe Kinogäste,</h1>
+            <p>aufgrund des <a href="https://www.verkuendung-bayern.de/baymbl/2020-336/" rel="norefferer noopener">Hygienekonzeptes für Kinobetriebe</a> des Bayrischen Staatsministeriums für Gesundheit und Pflege vom 15. Juni 2020, Az. GZ6a-G8000-2020/122-366 sind wir verpflichtet ihre persöhnlichen Daten zum Zwecke der Rückverfolgbarkeit im Falle einer Infektion zu erheben.</p>
+            <p>Die von uns zu erhebenden Daten umfassen den Namen, die Telefonnummer <strong>oder</strong> Emailadresse sowie den Zeitpunkt und Dauer ihres Besuches.</p>
+            <p>Diese Daten werden weiterhin von uns:</p>
+            <ul>
+                <li>gesichert übertragen</li>
+                <li>nicht von dritten einsehbar & verschlüsselt gespeichert</li>
+                <li>nach Ablauf eines Monats automatisiert gelöscht</li>
+            </ul>
+
+            <p>Wenn sie keine elektronische Speicherung ihrer Daten wünschen, können Sie ihre Daten auch händisch in die bereitliegenden Vordrucke eintragen. Sie finden diese an unserer Kinokasse.</p>
+            <p>Wir Danken für ihr Verständnis, </p>
+            <h3>Ihr CinePark Schrobenhausen</h3>
+            <button class="button-fullWidth tracker-init">Start</button>
+        </section>
+        <section id="tracker-count" state="hidden">
+            <h1>Wie viele Personen (ab 6 Jahren) umfasst der Besuch?</h1>
+            <div class="tracker-count-Container">
+                <button class="button-count" value="1">1</button>
+                <button class="button-count" value="2">2</button>
+                <button class="button-count" value="3">3</button>
+                <button class="button-count" value="4">4</button>
+                <button class="button-count" value="5">5</button>
+                <label for="inputNumber">Freie Anzahl</label>
+                <input placeholder="5+" type="number" name="inputNumber" class="input-count" pattern="[0-9]*">
+            </div>
+        </section>
+        <section id="tracker-show" state="hidden">
+            <h1>Welche Vorstellung besuchen Sie?</h1>
+            <div class="tracker-show-container">
+                <span class="show_state" state="hidden">Keine weiteren Vorstellungen heute.</span>
+            </div>
+        </section>
+        <section id="tracker-group" state="hidden">
+            <div class="tracker-form-container">
+                <form class="tracker-form" action="">
+                    <h3 class="tracker-form-title">1. Person</h3>
+                    <label for="vorname">Vorname</label>
+                    <input type="text" name="vorname" placeholder="Vorname" >
+                    <label for="nachname">Nachname</label>
+                    <input type="text" name="nachname" placeholder="Nachname" >
+                    <button class="button-setLastname button-fullWidth" state="hidden">Nachname übernehmen?</button>
+                    <label for="telefon">Telefon</label>
+                    <input type="tel" name="telefon" placeholder="Telefon" >
+                    <label for="email">Emailadresse</label>
+                    <input type="email" name="email" placeholder="Emailadresse" > 
+                </form>
+            </div>
+            <div class="tracker-controls">
+                <button id="tracker-addPerson" class="button-fullWidth">Zusätzliche Person</button>
+                <button id="tracker-deletePerson" class="button-fullWidth">Letzte Person löschen</button>
+                <button id="tracker-submit" class="button-fullWidth button-action">Daten speichern</button>
+            </div>
+        </section>
+        <section id="tracker-success" state="hidden">
+            <span class="tracker-success-personcount"></span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            <span>Bitte zeigen Sie dem Mitarbeiter, dass ihre Daten erfolgreich übertragen wurden. Viel spaß im Film!</span>
+        </section>
+        <section id="tracker-failure" state="hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+            <span>Leider konnten ihre Daten nicht erfolgreich übertragen werden. Sie können es erneut versuchen oder die Daten händisch hinterlegen. Die entsprechenden Vordrucke finden Sie an unserer Kinokasse.</span>
+            <button class="button-fullWidth button-retry">Erneut versuchen</button>
+        </section>
+    </main>
+    <footer><a href="./impressum.html">Impressum / Datenschutz</a></footer>
+    <script src="scripts/app.js" type="module"></script>
+</body>
+</html>
