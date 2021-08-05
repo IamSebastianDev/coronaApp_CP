@@ -1,4 +1,4 @@
-﻿export default{
+﻿export default {
    cinemas: [
    {
       id: "2645",
@@ -14,66 +14,6 @@
              is_4k: false,
              performances: [
                 {
-               id: "performance28133",
-               starts_at: "2021-07-26T16:45:00",
-               ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28133"
-                }
-             ,
-                {
-               id: "performance28134",
-               starts_at: "2021-07-26T19:45:00",
-               ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28134"
-                }
-             ,
-                {
-               id: "performance28135",
-               starts_at: "2021-07-27T16:45:00",
-               ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28135"
-                }
-             ,
-                {
-               id: "performance28136",
-               starts_at: "2021-07-28T16:45:00",
-               ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28136"
-                }
-             ,
-                {
-               id: "performance28137",
-               starts_at: "2021-07-28T19:45:00",
-               ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28137"
-                }
-             ,
-                {
-               id: "performance28161",
-               starts_at: "2021-07-29T19:30:00",
-               ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28161"
-                }
-             ,
-                {
-               id: "performance28162",
-               starts_at: "2021-07-30T19:30:00",
-               ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28162"
-                }
-             ,
-                {
-               id: "performance28236",
-               starts_at: "2021-07-30T22:15:00",
-               ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28236"
-                }
-             ,
-                {
-               id: "performance28163",
-               starts_at: "2021-07-31T19:30:00",
-               ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28163"
-                }
-             ,
-                {
-               id: "performance28237",
-               starts_at: "2021-07-31T22:15:00",
-               ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28237"
-                }
-             ,
-                {
                id: "performance28164",
                starts_at: "2021-08-02T19:30:00",
                ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28164"
@@ -83,6 +23,42 @@
                id: "performance28165",
                starts_at: "2021-08-04T19:30:00",
                ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28165"
+                }
+             ,
+                {
+               id: "performance28281",
+               starts_at: "2021-08-05T16:45:00",
+               ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28281"
+                }
+             ,
+                {
+               id: "performance28282",
+               starts_at: "2021-08-06T16:45:00",
+               ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28282"
+                }
+             ,
+                {
+               id: "performance28321",
+               starts_at: "2021-08-07T22:15:00",
+               ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28321"
+                }
+             ,
+                {
+               id: "performance28283",
+               starts_at: "2021-08-09T16:45:00",
+               ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28283"
+                }
+             ,
+                {
+               id: "performance28284",
+               starts_at: "2021-08-10T16:45:00",
+               ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28284"
+                }
+             ,
+                {
+               id: "performance28285",
+               starts_at: "2021-08-11T16:45:00",
+               ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28285"
                 }
              ]
          }
@@ -98,27 +74,27 @@
              is_4k: false,
              performances: [
                 {
-               id: "performance28203",
-               starts_at: "2021-07-30T15:00:00",
-               ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28203"
-                }
-             ,
-                {
-               id: "performance28204",
-               starts_at: "2021-07-31T12:00:00",
-               ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28204"
-                }
-             ,
-                {
-               id: "performance28205",
-               starts_at: "2021-08-01T12:00:00",
-               ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28205"
-                }
-             ,
-                {
                id: "performance28206",
                starts_at: "2021-08-03T15:00:00",
                ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28206"
+                }
+             ,
+                {
+               id: "performance28322",
+               starts_at: "2021-08-03T15:00:00",
+               ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28322"
+                }
+             ,
+                {
+               id: "performance28318",
+               starts_at: "2021-08-07T12:35:00",
+               ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28318"
+                }
+             ,
+                {
+               id: "performance28319",
+               starts_at: "2021-08-08T12:35:00",
+               ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28319"
                 }
              ]
          }
@@ -133,54 +109,6 @@
              is_hrf: false,
              is_4k: false,
              performances: [
-                {
-               id: "performance28209",
-               starts_at: "2021-07-29T14:30:00",
-               ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28209"
-                }
-             ,
-                {
-               id: "performance28210",
-               starts_at: "2021-07-29T17:00:00",
-               ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28210"
-                }
-             ,
-                {
-               id: "performance28211",
-               starts_at: "2021-07-30T14:30:00",
-               ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28211"
-                }
-             ,
-                {
-               id: "performance28212",
-               starts_at: "2021-07-30T17:00:00",
-               ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28212"
-                }
-             ,
-                {
-               id: "performance28213",
-               starts_at: "2021-07-31T14:30:00",
-               ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28213"
-                }
-             ,
-                {
-               id: "performance28214",
-               starts_at: "2021-07-31T17:00:00",
-               ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28214"
-                }
-             ,
-                {
-               id: "performance28215",
-               starts_at: "2021-08-01T14:30:00",
-               ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28215"
-                }
-             ,
-                {
-               id: "performance28216",
-               starts_at: "2021-08-01T17:00:00",
-               ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28216"
-                }
-             ,
                 {
                id: "performance28217",
                starts_at: "2021-08-02T14:30:00",
@@ -215,6 +143,90 @@
                id: "performance28222",
                starts_at: "2021-08-04T17:00:00",
                ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28222"
+                }
+             ,
+                {
+               id: "performance28288",
+               starts_at: "2021-08-05T15:15:00",
+               ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28288"
+                }
+             ,
+                {
+               id: "performance28289",
+               starts_at: "2021-08-05T17:45:00",
+               ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28289"
+                }
+             ,
+                {
+               id: "performance28290",
+               starts_at: "2021-08-06T15:15:00",
+               ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28290"
+                }
+             ,
+                {
+               id: "performance28291",
+               starts_at: "2021-08-06T17:45:00",
+               ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28291"
+                }
+             ,
+                {
+               id: "performance28292",
+               starts_at: "2021-08-07T15:15:00",
+               ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28292"
+                }
+             ,
+                {
+               id: "performance28293",
+               starts_at: "2021-08-07T17:45:00",
+               ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28293"
+                }
+             ,
+                {
+               id: "performance28294",
+               starts_at: "2021-08-08T15:15:00",
+               ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28294"
+                }
+             ,
+                {
+               id: "performance28295",
+               starts_at: "2021-08-08T17:45:00",
+               ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28295"
+                }
+             ,
+                {
+               id: "performance28296",
+               starts_at: "2021-08-09T15:15:00",
+               ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28296"
+                }
+             ,
+                {
+               id: "performance28297",
+               starts_at: "2021-08-09T17:45:00",
+               ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28297"
+                }
+             ,
+                {
+               id: "performance28298",
+               starts_at: "2021-08-10T15:15:00",
+               ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28298"
+                }
+             ,
+                {
+               id: "performance28299",
+               starts_at: "2021-08-10T17:45:00",
+               ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28299"
+                }
+             ,
+                {
+               id: "performance28300",
+               starts_at: "2021-08-11T15:15:00",
+               ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28300"
+                }
+             ,
+                {
+               id: "performance28301",
+               starts_at: "2021-08-11T17:45:00",
+               ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28301"
                 }
              ]
          }
@@ -308,15 +320,15 @@
                 }
              ,
                 {
-               id: "performance28252",
-               starts_at: "2021-08-07T16:45:00",
-               ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28252"
-                }
-             ,
-                {
                id: "performance28253",
                starts_at: "2021-08-07T17:00:00",
                ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28253"
+                }
+             ,
+                {
+               id: "performance28252",
+               starts_at: "2021-08-07T17:30:00",
+               ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28252"
                 }
              ,
                 {
@@ -356,15 +368,15 @@
                 }
              ,
                 {
-               id: "performance28260",
-               starts_at: "2021-08-08T16:45:00",
-               ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28260"
-                }
-             ,
-                {
                id: "performance28261",
                starts_at: "2021-08-08T17:00:00",
                ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28261"
+                }
+             ,
+                {
+               id: "performance28260",
+               starts_at: "2021-08-08T17:30:00",
+               ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28260"
                 }
              ,
                 {
@@ -479,24 +491,6 @@
          ,
          {
              rentrak_film_id: "",
-             rentrak_release_id: "1670067",
-             title: "Meister Eder und sein Pumuckl",
-             is_3d: false,
-             is_original_version: false,
-             is_original_version_with_subtitles: false,
-             is_hrf: false,
-             is_4k: false,
-             performances: [
-                {
-               id: "performance28235",
-               starts_at: "2021-07-31T10:00:00",
-               ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28235"
-                }
-             ]
-         }
-         ,
-         {
-             rentrak_film_id: "",
              rentrak_release_id: "1787209",
              title: "Space Jam 2: A New Legacy",
              is_3d: false,
@@ -505,126 +499,6 @@
              is_hrf: false,
              is_4k: false,
              performances: [
-                {
-               id: "performance28120",
-               starts_at: "2021-07-26T16:45:00",
-               ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28120"
-                }
-             ,
-                {
-               id: "performance28121",
-               starts_at: "2021-07-26T19:30:00",
-               ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28121"
-                }
-             ,
-                {
-               id: "performance28122",
-               starts_at: "2021-07-27T16:45:00",
-               ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28122"
-                }
-             ,
-                {
-               id: "performance28123",
-               starts_at: "2021-07-27T19:30:00",
-               ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28123"
-                }
-             ,
-                {
-               id: "performance28124",
-               starts_at: "2021-07-28T16:45:00",
-               ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28124"
-                }
-             ,
-                {
-               id: "performance28125",
-               starts_at: "2021-07-28T19:30:00",
-               ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28125"
-                }
-             ,
-                {
-               id: "performance28175",
-               starts_at: "2021-07-29T14:45:00",
-               ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28175"
-                }
-             ,
-                {
-               id: "performance28176",
-               starts_at: "2021-07-29T17:15:00",
-               ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28176"
-                }
-             ,
-                {
-               id: "performance28177",
-               starts_at: "2021-07-29T19:45:00",
-               ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28177"
-                }
-             ,
-                {
-               id: "performance28178",
-               starts_at: "2021-07-30T14:45:00",
-               ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28178"
-                }
-             ,
-                {
-               id: "performance28179",
-               starts_at: "2021-07-30T17:15:00",
-               ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28179"
-                }
-             ,
-                {
-               id: "performance28180",
-               starts_at: "2021-07-30T19:45:00",
-               ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28180"
-                }
-             ,
-                {
-               id: "performance28181",
-               starts_at: "2021-07-30T22:30:00",
-               ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28181"
-                }
-             ,
-                {
-               id: "performance28182",
-               starts_at: "2021-07-31T14:45:00",
-               ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28182"
-                }
-             ,
-                {
-               id: "performance28183",
-               starts_at: "2021-07-31T17:15:00",
-               ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28183"
-                }
-             ,
-                {
-               id: "performance28184",
-               starts_at: "2021-07-31T19:45:00",
-               ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28184"
-                }
-             ,
-                {
-               id: "performance28185",
-               starts_at: "2021-07-31T22:30:00",
-               ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28185"
-                }
-             ,
-                {
-               id: "performance28186",
-               starts_at: "2021-08-01T14:45:00",
-               ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28186"
-                }
-             ,
-                {
-               id: "performance28187",
-               starts_at: "2021-08-01T17:15:00",
-               ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28187"
-                }
-             ,
-                {
-               id: "performance28188",
-               starts_at: "2021-08-01T19:45:00",
-               ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28188"
-                }
-             ,
                 {
                id: "performance28189",
                starts_at: "2021-08-02T14:45:00",
@@ -641,12 +515,6 @@
                id: "performance28191",
                starts_at: "2021-08-02T19:45:00",
                ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28191"
-                }
-             ,
-                {
-               id: "performance28192",
-               starts_at: "2021-08-03T14:45:00",
-               ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28192"
                 }
              ,
                 {
@@ -678,6 +546,48 @@
                starts_at: "2021-08-04T19:45:00",
                ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28197"
                 }
+             ,
+                {
+               id: "performance28306",
+               starts_at: "2021-08-05T14:00:00",
+               ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28306"
+                }
+             ,
+                {
+               id: "performance28307",
+               starts_at: "2021-08-06T14:00:00",
+               ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28307"
+                }
+             ,
+                {
+               id: "performance28308",
+               starts_at: "2021-08-07T14:45:00",
+               ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28308"
+                }
+             ,
+                {
+               id: "performance28309",
+               starts_at: "2021-08-08T14:45:00",
+               ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28309"
+                }
+             ,
+                {
+               id: "performance28310",
+               starts_at: "2021-08-09T14:00:00",
+               ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28310"
+                }
+             ,
+                {
+               id: "performance28311",
+               starts_at: "2021-08-10T14:00:00",
+               ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28311"
+                }
+             ,
+                {
+               id: "performance28312",
+               starts_at: "2021-08-11T14:00:00",
+               ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28312"
+                }
              ]
          }
          ,
@@ -692,36 +602,6 @@
              is_4k: false,
              performances: [
                 {
-               id: "performance28225",
-               starts_at: "2021-07-29T19:30:00",
-               ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28225"
-                }
-             ,
-                {
-               id: "performance28226",
-               starts_at: "2021-07-30T19:30:00",
-               ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28226"
-                }
-             ,
-                {
-               id: "performance28227",
-               starts_at: "2021-07-30T22:15:00",
-               ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28227"
-                }
-             ,
-                {
-               id: "performance28228",
-               starts_at: "2021-07-31T19:30:00",
-               ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28228"
-                }
-             ,
-                {
-               id: "performance28229",
-               starts_at: "2021-07-31T22:15:00",
-               ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28229"
-                }
-             ,
-                {
                id: "performance28230",
                starts_at: "2021-08-02T19:30:00",
                ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28230"
@@ -731,6 +611,42 @@
                id: "performance28231",
                starts_at: "2021-08-04T19:30:00",
                ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28231"
+                }
+             ,
+                {
+               id: "performance28304",
+               starts_at: "2021-08-06T22:30:00",
+               ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28304"
+                }
+             ,
+                {
+               id: "performance28305",
+               starts_at: "2021-08-07T22:30:00",
+               ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28305"
+                }
+             ]
+         }
+         ,
+         {
+             rentrak_film_id: "",
+             rentrak_release_id: "1793233",
+             title: "Himmel über dem Camino - Der Jakobsweg ist Leben!",
+             is_3d: false,
+             is_original_version: false,
+             is_original_version_with_subtitles: false,
+             is_hrf: false,
+             is_4k: false,
+             performances: [
+                {
+               id: "performance28315",
+               starts_at: "2021-08-07T12:50:00",
+               ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28315"
+                }
+             ,
+                {
+               id: "performance28316",
+               starts_at: "2021-08-08T12:50:00",
+               ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28316"
                 }
              ]
          }
@@ -746,24 +662,6 @@
              is_4k: false,
              performances: [
                 {
-               id: "performance28198",
-               starts_at: "2021-07-29T15:00:00",
-               ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28198"
-                }
-             ,
-                {
-               id: "performance28199",
-               starts_at: "2021-07-31T15:00:00",
-               ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28199"
-                }
-             ,
-                {
-               id: "performance28200",
-               starts_at: "2021-08-01T15:00:00",
-               ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28200"
-                }
-             ,
-                {
                id: "performance28201",
                starts_at: "2021-08-02T15:00:00",
                ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28201"
@@ -773,6 +671,18 @@
                id: "performance28202",
                starts_at: "2021-08-04T15:00:00",
                ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28202"
+                }
+             ,
+                {
+               id: "performance28313",
+               starts_at: "2021-08-07T13:00:00",
+               ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28313"
+                }
+             ,
+                {
+               id: "performance28314",
+               starts_at: "2021-08-08T13:00:00",
+               ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28314"
                 }
              ]
          }
@@ -788,33 +698,15 @@
              is_4k: false,
              performances: [
                 {
-               id: "performance28151",
-               starts_at: "2021-07-26T17:30:00",
-               ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28151"
+               id: "performance28302",
+               starts_at: "2021-08-07T11:00:00",
+               ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28302"
                 }
              ,
                 {
-               id: "performance28152",
-               starts_at: "2021-07-27T17:30:00",
-               ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28152"
-                }
-             ,
-                {
-               id: "performance28153",
-               starts_at: "2021-07-28T17:30:00",
-               ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28153"
-                }
-             ,
-                {
-               id: "performance28207",
-               starts_at: "2021-07-31T11:00:00",
-               ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28207"
-                }
-             ,
-                {
-               id: "performance28208",
-               starts_at: "2021-08-01T11:00:00",
-               ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28208"
+               id: "performance28303",
+               starts_at: "2021-08-08T11:00:00",
+               ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28303"
                 }
              ]
          }
@@ -830,48 +722,6 @@
              is_4k: false,
              performances: [
                 {
-               id: "performance28142",
-               starts_at: "2021-07-26T20:00:00",
-               ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28142"
-                }
-             ,
-                {
-               id: "performance28143",
-               starts_at: "2021-07-28T20:00:00",
-               ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28143"
-                }
-             ,
-                {
-               id: "performance28170",
-               starts_at: "2021-07-29T17:30:00",
-               ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28170"
-                }
-             ,
-                {
-               id: "performance28171",
-               starts_at: "2021-07-30T17:30:00",
-               ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28171"
-                }
-             ,
-                {
-               id: "performance28238",
-               starts_at: "2021-07-31T11:00:00",
-               ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28238"
-                }
-             ,
-                {
-               id: "performance28172",
-               starts_at: "2021-07-31T17:30:00",
-               ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28172"
-                }
-             ,
-                {
-               id: "performance28232",
-               starts_at: "2021-08-01T11:00:00",
-               ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28232"
-                }
-             ,
-                {
                id: "performance28173",
                starts_at: "2021-08-02T17:30:00",
                ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28173"
@@ -881,6 +731,12 @@
                id: "performance28174",
                starts_at: "2021-08-04T17:30:00",
                ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28174"
+                }
+             ,
+                {
+               id: "performance28286",
+               starts_at: "2021-08-07T11:00:00",
+               ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28286"
                 }
              ]
          }
@@ -896,21 +752,15 @@
              is_4k: false,
              performances: [
                 {
-               id: "performance28159",
-               starts_at: "2021-07-27T19:45:00",
-               ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28159"
-                }
-             ,
-                {
-               id: "performance28166",
-               starts_at: "2021-08-01T19:30:00",
-               ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28166"
-                }
-             ,
-                {
                id: "performance28167",
                starts_at: "2021-08-03T19:30:00",
                ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28167"
+                }
+             ,
+                {
+               id: "performance28280",
+               starts_at: "2021-08-06T22:15:00",
+               ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28280"
                 }
              ]
          }
@@ -926,45 +776,15 @@
              is_4k: false,
              performances: [
                 {
-               id: "performance28146",
-               starts_at: "2021-07-27T20:00:00",
-               ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28146"
-                }
-             ,
-                {
-               id: "performance28168",
-               starts_at: "2021-08-01T17:30:00",
-               ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28168"
-                }
-             ,
-                {
                id: "performance28169",
                starts_at: "2021-08-03T17:30:00",
                ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28169"
                 }
-             ]
-         }
-         ,
-         {
-             rentrak_film_id: "",
-             rentrak_release_id: "",
-             title: "Feuerwehrmann Sam - Das Kinospecial",
-             is_3d: false,
-             is_original_version: false,
-             is_original_version_with_subtitles: false,
-             is_hrf: false,
-             is_4k: false,
-             performances: [
-                {
-               id: "performance28223",
-               starts_at: "2021-07-31T13:15:00",
-               ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28223"
-                }
              ,
                 {
-               id: "performance28224",
-               starts_at: "2021-08-01T13:15:00",
-               ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28224"
+               id: "performance28287",
+               starts_at: "2021-08-08T11:00:00",
+               ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28287"
                 }
              ]
          }
@@ -979,12 +799,6 @@
              is_hrf: false,
              is_4k: false,
              performances: [
-                {
-               id: "performance28233",
-               starts_at: "2021-08-01T19:30:00",
-               ticketshop_link: "https://kinotickets.express/schrobenhausen-cinepark/booking/28233"
-                }
-             ,
                 {
                id: "performance28234",
                starts_at: "2021-08-03T19:30:00",
