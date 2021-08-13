@@ -63,14 +63,14 @@
                 <form class="tracker-form" action="">
                     <h3 class="tracker-form-title">1. Person</h3>
                     <label for="vorname">Vorname</label>
-                    <input type="text" name="vorname" placeholder="Vorname" >
+                    <input type="text" autocomplete="given-name" id="vorname" name="vorname" placeholder="Vorname" >
                     <label for="nachname">Nachname</label>
-                    <input type="text" name="nachname" placeholder="Nachname" >
+                    <input type="text"  autocomplete="family-name" id="nachname" name="nachname" placeholder="Nachname" >
                     <button class="button-setLastname button-fullWidth" state="hidden">Nachname übernehmen?</button>
                     <label for="telefon">Telefon</label>
-                    <input type="tel" name="telefon" placeholder="Telefon" >
+                    <input type="tel" id="telefon" name="telefon" placeholder="Telefon" >
                     <label for="email">Emailadresse</label>
-                    <input type="email" name="email" placeholder="Emailadresse" > 
+                    <input type="email" id="email" name="email" placeholder="Emailadresse" > 
                 </form>
             </div>
             <div class="tracker-controls">
